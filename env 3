@@ -1,0 +1,60 @@
+#### AZURE OpenAI configs NEW ####
+#AZURE_OPENAI_API_KEY='10a5c5995bd74909bfeb43de6c11c4bf'
+#AZURE_OPENAI_ENDPOINT="https://qa.gai.cencora.com/aoai"
+AZURE_OPENAI_API_VERSION="2024-02-15-preview"
+AZURE_OPENAI_DEPLOYMENT="gpt-4o"
+
+### EMEDDING MODEL ###
+EMBEDDINGS_MODEL="text-embedding-ada-002"
+EMBEDDINGS_DEPLOYMENT="text-embedding-ada-002"
+#EMBEDDINGS_API_KEY="10a5c5995bd74909bfeb43de6c11c4bf"
+#EMBEDDINGS_ENDPOINT='https://qa.gai.cencora.com/aoai'
+EMBEDDINGS_API_VERSION="2024-02-15-preview"
+TOKEN_COUNT=8000
+
+### COSMOS CONFIGURATION ###
+#COSMOS_ENDPOINT='https://cosmos-keyaccount-qa.documents.azure.com:443/'
+#COSMOS_KEY='k9LU5BuD46E3pkmWhnsj5xxiRMUWgGT8Psb1XzdRkrHVLlirB1kNJDHf3SBL1aHxTfgn44u21we6ACDbtAUd1Q=='
+COSMOS_NEWS_DATABASE='keyaccount_digest_db'
+COSMOS_NEWS_CONTAINER='news_data'
+COSMOS_KEY_CONTAINER="Keyword_information"
+COSMOS_USER_CONTAINER="user_details"
+COSMOS_CLIENT_CONTAINER="client_information"
+COSMOS_SOURCE_CONTAINER="source_details"
+ADVISORY_CHANNEL_CRON="0 5 5 * * *"
+COSMOS_DEFINITIVE_CLIENT_CONTAINER="definitive_client_information"
+COSMOS_CONFIG_CONTAINER="config_details"
+
+#### BING NEWS Configs ####
+LOCAL_TIMEZONE="Asia/Kolkata"
+BECKER_SCRAPPER_DURATION_DAYS="180"
+
+#### BING NEWS Configs ####
+#BING_NEWS_URL="https://api.bing.microsoft.com/v7.0/news/search"
+#BING_NEWS_KEY="e6f92ff18e204266894f631fa8a97259"
+#BING_NEWS_PlUGIN_URL="https://app-keyaccountwebtoolsplugin-qa.azurewebsites.net/bing_news_plugin/GetBingResults"  ##Need to get
+#SCRAPE_PLUGIN_URL="https://app-keyaccountwebtoolsplugin-qa.azurewebsites.net/bing_news_plugin/ScrapeURL"
+
+### DEFINITIVE ###
+#DEFINITIVE_URL='https://api.defhc.com/v5/'
+#DEFINITIVE_USERNAME="accountsdigest@cencora.com"
+#DEFINITIVE_PASSWORD="CencoraDHC24!"
+
+#### CRON TIME ####
+BECKER_CHANNEL_CRON="0 0 4 * * *"
+BING_NEWS_CRON="0 33 6 * * *"
+DEFINITIVE_CHANNEL_CRON="0 0 0 * * *"
+DRUG_CHANNEL_CRON="0 0 2 * * *"
+HIMSS_CRON="0 0 3 * * *"
+
+### KEY VAULT ####
+KEY_VAULT_NAME='kv-keyaccount-qa'
+PROD="False"
+
+### AZURE AI SEARCH ###
+AZURE_AI_SEARCH_ENDPOINT="https://searchkeyaccount-qa.search.windows.net"
+AZURE_AI_SEARCH_API_KEY="mHxjzz3jDapu4BHRn6aGjTyMzjNgBN6OlcrDHPK7wcAzSeCWIrJj"
+AZURE_AI_SEARCH_INDEX_NAME="keyaccountdigest_news_content_index_512_tokens"
+AZURE_AI_SEARCH_CHUNK_SIZE="512"
+AZURE_AI_SEARCH_CHUNK_OVERLAP_SIZE="30"
+APPLICATIONINSIGHTS_CONNECTION_STRING="InstrumentationKey=1d1184e2-70e7-4a30-a23b-b14afd5b9562;IngestionEndpoint=https://eastus2-3.in.applicationinsights.azure.com/;LiveEndpoint=https://eastus2.livediagnostics.monitor.azure.com/;ApplicationId=7fcf337d-bc52-4417-88cd-61565b6739ae"
